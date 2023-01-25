@@ -2,10 +2,17 @@
 
 
 
-@font-face {
+/* @font-face {
     font-family: 'tunicregular';
     src: url('https://github.com/Foxgote/BetterDiscord/blob/main/tunicfontkit/tunic-webfont.woff2') format('woff2'),
     font-weight: normal;
     font-style: normal;
 
+} */
+@font-face{
+font-family:Tunic;
+src:url('https://github.com/Foxgote/BetterDiscord/blob/main/tunicfontkit/tunic-webfont.woff2') format("woff2")}
+
+body, div, span, textarea, ::-webkit-input-placeholder {
+    font-family: 'Tunic';
 }
